@@ -15,17 +15,20 @@ struct Node{
 class List{
 	int data;
 	Node* head,*tail;
-
+	public:
+	List();
 	void print();
-	void addbegin(int);
+	void addbegin(int); ///osama
 	bool deletebegin();
 	void addend(int);
-	void deleteend();
+	void deleteend();  ///osama
 	bool addposition(int,int);
-	bool deleteposition(int);
+	bool deleteposition(int); //osama
 	void operator=(List&list);
-	List(List&list);
-	bool is_empty();
+	List(List&list);  //osama
+	bool is_empty();  //osama
+	int size();
+	int getelemennt(int);
 
 
 
