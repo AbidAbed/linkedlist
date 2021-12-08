@@ -25,6 +25,7 @@ class List{
 	bool deleteposition(int);
 	void operator=(List&list);
 	List(List&list);
+	bool is_empty();
 
 
 
